@@ -17,9 +17,9 @@ Login button:
 
 from appium.webdriver.common.mobileby   import MobileBy
 class LoginLocators(object):
-    FIELD_LOGIN = (
+    TEXTFIELD_LOGIN = (
         MobileBy.XPATH, "//android.view.ViewGroup[@content-desc='Campo de login']/android.widget.EditText")
-    FIELD_PASSWORD = (
+    TEXTFIELD_PASSWORD = (
         MobileBy.XPATH, "//android.view.ViewGroup[@content-desc='Campo de senha']/android.widget.EditText")
     BUTTON_LOGIN = (
         MobileBy.XPATH, "//android.view.ViewGroup[@content-desc='Botão de envio']")
