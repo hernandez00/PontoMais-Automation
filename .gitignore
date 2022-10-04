@@ -128,6 +128,7 @@ ENV/
 env.bak/
 venv.bak/
 .easyVEnv
+.mobAutom
 
 # Spyder project settings
 .spyderproject
