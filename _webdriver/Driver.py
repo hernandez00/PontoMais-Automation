@@ -6,7 +6,6 @@ class Driver:
         caps = {
             "platformName": "Android",
             "appium:deviceName": "192.168.100.130:5555",
-            "deviceId": "192.168.100.130:5554",
             "appium:appPackage": "br.com.pontomais.v2",
             "appium:appActivity": "br.com.pontomais.v2.MainActivity"
         }
