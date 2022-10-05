@@ -1,6 +1,7 @@
 import unittest
-from _webdriver.Driver import Driver
+from _webDriver.Driver import Driver
 from _pageObjects.LoginMethods import Login
+from _pageObjects.HomeMethods import Home
 
 
 class TestClass(unittest.TestCase):
@@ -13,4 +14,5 @@ class TestClass(unittest.TestCase):
     def test_login(self):
         launchLogin = Login(self.driver.instance)
         launchLogin.execute_login()
-        assert True
+        home = Home(self.driver.instance)
+        assert home.is_logged()

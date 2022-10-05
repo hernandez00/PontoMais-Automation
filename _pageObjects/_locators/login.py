@@ -15,6 +15,7 @@ Login button:
 //android.view.ViewGroup[@content-desc="Botão de envio"]
 """
 
+
 from appium.webdriver.common.mobileby   import MobileBy
 class LoginLocators(object):
     TEXTFIELD_LOGIN = (
