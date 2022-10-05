@@ -7,6 +7,8 @@ class Login(Base):
     def execute_login(self):
         Base.find_textfield(self._driver, LoginLocators.TEXTFIELD_LOGIN).send_keys(
             'leonardo.hernandez@fmxsolucoes.com.br')
-        Base.find_textfield(
-            self._driver, LoginLocators.TEXTFIELD_PASSWORD).send_keys('HernandeZ!#%5')
+
+        Base.find_textfield(self._driver, LoginLocators.TEXTFIELD_PASSWORD).send_keys(
+            'HernandeZ!#%5')
+
         Base.find_button(self._driver, LoginLocators.BUTTON_LOGIN).click()
